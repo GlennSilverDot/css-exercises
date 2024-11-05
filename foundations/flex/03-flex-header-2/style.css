@@ -27,6 +27,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-self: center;
 }
 
 button {
@@ -35,6 +36,26 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
+  flex-direction: row;
 }
 
 a {
